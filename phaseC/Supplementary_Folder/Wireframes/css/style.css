@@ -1,0 +1,611 @@
+input.form-control {
+    margin-bottom: 5px;
+}
+
+tr-search-body{
+    background-color: aliceblue;
+}
+a{margin-top:5px;  }
+
+a:hover{
+    cursor:pointer;
+}
+
+input.form-control{
+    margin-bottom:10px;
+}
+
+.form-group .form-control{
+
+    margin-bottom:15px;
+}
+
+body{
+    margin-top:100px;
+    margin-bottom:50px;
+    padding-top: 36px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+h1{text-align:center;
+    margin-bottom:15px;
+}
+
+.row
+{
+    margin-right:0px;
+    margin-left:0px;
+}
+
+.tr-header h1{
+    text-align:left;
+    margin-bottom:0px;
+
+}
+
+
+body.tr-body-register-margin{margin-top:20px;}
+
+.tr-header-right-margin {margin-right:3px;}
+.tr-header-left-margin {margin-left:3px;}
+
+.tr-right-margin {margin-right:15px;}
+.tr-left-margin {margin-left:20px;}
+
+.tr-no-left-header-margin{margin:0px;}
+
+.tr-no-left-padding{padding-left:0px;}
+
+.navbar-default {
+    background-color: #428bca;
+}
+
+.navbar-inverse
+{
+    background-color: darkcyan;
+}
+.navbar-default .navbar-brand{color:white !important;}
+.navbar-inverse .navbar-brand{color:white !important;}
+.navbar a{color:#acacac;
+}
+
+.navbar a:hover
+{
+    color:white;
+}
+
+.tr-upload-button
+{
+    background-color: #aaaaaa;
+    border-color: darkgray;
+    color:#222222;
+}
+
+.tr-upload-button:hover
+{
+    background-color: #9a9a9a;
+}
+
+.tr-right-border
+{
+    border-right-style:solid;
+    border-right-width: 1.8px;
+    border-right-color: lightgray;
+}
+
+li.borderless{
+    border-top:none;
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+}
+
+.tr-left-pane {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    overflow: auto;
+    padding-right:0px;
+    padding-left:0px;
+}
+
+.tr-right-pane {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 52px;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 15px;
+    overflow-y: auto;
+
+}
+
+.tr-left-profile {
+//background-color: #3f3f3f;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    overflow: auto;
+    padding-right:0px;
+    padding-left:0px;
+}
+
+.tr-profile-leftsidebar{
+//background-color: #3f3f3f;
+}
+
+.tr-right-profile {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-top: 65px;
+    padding-left: 30px;
+    padding-right: 15px;
+    overflow-y: auto;
+
+}
+
+.tr-widget-toolbar
+{
+    position:absolute;
+    background-color:white;
+    right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    border-bottom-left-radius: 5px;
+    opacity:0.8;
+}
+
+img
+{
+    margin-top:5px;
+//margin-bottom:15px;
+
+}
+
+.youtube-widget iframe
+{
+    position: absolute;
+    margin-top:5px;
+    margin-bottom:15px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.glyphicon{
+    margin-right:5px;
+}
+
+p{
+    padding-left: 5px;
+    padding-right: 5px;}
+
+a:-webkit-any-link{
+    text-decoration: none;}
+
+.tr-widgets{
+    margin-bottom:5px;
+}
+
+body{
+    margin-top: 60px;
+}
+
+.tr-upperbackground
+{
+    margin-bottom: 20px;
+}
+
+.tr-search-field{
+    color: #3f3f3f;
+    text-align:center;
+}
+
+.tr-left-justify{
+    text-align: left;
+}
+
+.form-control{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.tr-btn
+{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.tr-input-field{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.thumbnail{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.tr-search-results{
+    color:black;
+}
+.tr-search-results .thumbnail{
+//flex-wrap: wrap;
+}
+
+.tr-search-results img{
+    width: 100%;
+//margin-left: 5px;
+//margin-right: 5px;
+//padding-left: 0px;
+//height: 278px;
+//flex-wrap: wrap;
+    align: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+#tr-search-img{
+    width: 100%;
+    height: 400px;
+}
+
+.tr-search-results .card-title a{
+    width: 100%;
+//margin-left: 5px;
+//margin-right: 5px;
+//padding-left: 5px;
+//padding-rigth: 5px;
+    height: 278px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#tr-admin-button{
+    background-color: #524f5c;
+    color:white; !important;
+}
+
+
+
+.tr-profile-sidebar a{
+    color: #acacac; !important;
+}
+
+.tr-profile-sidebar a:hover{
+    color: white; !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tr-profile-sidebar .list-group-item{
+    background-color: #3f3f3f;
+    opacity: 0.98;
+}
+
+.tr-profile-sidebar .active{
+    background-color: white;
+    opacity: 0.98;
+}
+
+
+#tr-profile-btn{
+    color: white;
+}
+
+.card{
+    background-color: #524f5c;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.card .card-img{
+    padding-top: 2px;
+    border-radius: 5px;
+    border-color: black;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top:0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right:0px;
+    width : 100%;
+
+}
+
+.card a{
+    color: whitesmoke;
+}
+
+.card a:hover{
+    color: white;
+}
+
+
+.tr-admin-panel a:hover{
+    cursor: pointer;
+}
+
+.tr-thumbnail{
+    background-color: #2e2e2e;
+    opacity: 0.95;
+}
+
+.tr-thumbnail img{
+    margin-top:0px;
+    padding-bottom: 5px;
+}
+
+
+#tr-thumbnail-title a{
+    padding-bottom: 5px;
+//font-size: medium;
+    color:white;
+
+}
+
+.label-as-badge{
+    border-radius: 1em;
+}
+
+h4.smallheader {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.placeholder {
+    margin-bottom: 20px;
+}
+
+.input-group-btn{
+    padding-top:5px;
+}
+
+.tr-logo{
+    font-family: 'Gill Sans MT Condensed';
+    font-size:xx-large;
+}
+
+.tr-movie-header{
+    border-bottom:1px solid gainsboro;
+}
+
+li.w92 img {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 10px;
+    width: 94px;
+    height: 136px;
+}
+
+a:focus, a:hover{
+    text-decoration: none;
+}
+
+#tr-admin-list .list-group-item {
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.tr-delete-btn{
+    margin-top: 0px;
+}
+
+#tr-admin-button .navbar-brand:hover{
+    background-color: #2e2e2e;
+}
+
+#tr-admin-button:hover{
+    background-color: #2e2e2e;
+//color:white; !important;
+}
+
+.tr-movie-toolbar
+{
+    position:absolute;
+    background-color:white;
+    right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    padding-top:0px;
+    border-bottom-left-radius: 5px;
+    opacity:0.98;
+    z-index: 100;
+}
+
+#tr-thumbnail-rating{
+    color: white;
+    text-align: center;
+}
+
+.tr-assignment-navbar{
+    background-color: #3f3f3f;
+}
+
+/* For Profile picture layout homa.htm
+ */
+
+/*font Awesome http://fontawesome.io*/
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+body {
+    margin-top:45px;
+}
+/*--------------------------------------------------------------------------
+  Navbar Style
+--------------------------------------------------------------------------*/
+.navbar {
+    border-bottom-left-radius:0; /*Change bootstrap default border-radius for menu*/
+}
+@media(min-width:768px) {
+    .navbar .navbar-brand {
+        width:224px; /*Change the width of .navbar-brand to center text and align with .sider-navbar border-right*/
+        text-align: center;
+    }
+}
+/*--------------------------------------------------------------------------
+  Side Navigation
+--------------------------------------------------------------------------*/
+@media(min-width:768px) {
+    .sider-navbar {
+        position: fixed;
+        top: 51px; /*Change to reposition .sider-navbar from top*/
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border-right:1px solid #E7E7E7; /*Change for right side border color*/
+        border-radius: 0;
+        overflow-y: auto;
+        background: #F8F8F8; /*Change for background color*/
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+    }
+
+    .sider-navbar li.sider-menu {
+
+    }
+    .sider-navbar li.sider-menu ul {
+        width: 225px;
+    }
+    .sider-navbar li.sider-menu > ul > li,
+    .sider-navbar li.sider-menu ul li ul li{
+        border-top:1px solid #E7E7E7;/*Change for .sider-menu border color*/
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+    .sider-navbar li.sider-menu > ul > li:last-child {
+        border-bottom:1px solid #E7E7E7;/*Change for .sider-menu border color*/
+    }
+    .sider-navbar li.sider-menu > ul > li.active,
+    .sider-navbar li.sider-menu > ul > li:hover,
+    .sider-navbar li.sider-menu ul li ul li:hover{
+        border-right:6px solid #dddddd;
+    }
+    .sider-navbar li.sider-menu ul li ul li:hover{
+        background:#FFFFFF;/*Change for .sider-menu border color*/
+    }
+    .sider-navbar li.sider-menu ul li a {
+        outline: none;
+        padding:15px;
+    }
+
+}
+.sider-navbar li.sider-menu ul {
+    list-style:none;
+    padding: 0;
+}
+
+.sider-navbar li.sider-menu ul li a {
+    display: block;
+    padding:15px;
+    text-decoration: none;
+    color:#5E5E5E;/*Change for .sider-menu color*/
+}
+.sider-navbar li.sider-menu ul li ul {
+    background-color:#f3f3f3;/*Change for .sider-menu background-color*/
+}
+/*--------------------------------------------------------------------------
+  Profile container
+  Thanks to keenthemes' bootstrap snippet for a starting point for the styles
+  http://bootsnipp.com/snippets/featured/user-profile-sidebar
+--------------------------------------------------------------------------*/
+#profile {
+
+}
+.profile-userpic img {
+    float: none;
+    margin: 12px auto 0;
+    padding:6px;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    border-left: 4px solid #333333;
+    border-right: 4px solid #333333;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 16px;
+    color: #333333;
+}
+
+.profile-usertitle-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-title {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+/*Hide profile picture on smaller devices*/
+@media(max-width:768px) {
+    #profile {
+        display:none;
+    }
+}
+/*--------------------------------------------------------------------------
+  Page Keeper
+  Setup layout so the main content will be to the right of .sider-navbar
+--------------------------------------------------------------------------*/
+@media(min-width:768px) {
+    #page-keeper {
+        width: 100%;
+        padding: 10px 10px 10px 225px;
+    }
+}
+
+/*sidebar collapsable dual */
+
+.row-offcanvas-left
+#sidebarLeft {
+    left: -50%;
+}
+
+.row-offcanvas-left.active {
+    left: 50%;
+}
+
+.row-offcanvas-right
+#sidebarRight {
+    right: -50%;
+}
+
+.row-offcanvas-right.active {
+    right: 50%;
+}
+
+.sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    margin-left: 10px;
+}

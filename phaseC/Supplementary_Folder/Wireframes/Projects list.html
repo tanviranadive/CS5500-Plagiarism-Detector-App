@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <script data-require="ui-bootstrap@*" data-semver="0.13.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.0.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top tr-assignment-navbar">
+    <div class="row container-fluid">
+        <div class="col-xs-12">
+            <div class="navbar-text pull-left tr-header-left-margin">
+                <a href="#">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+            </div>
+
+            <div class="navbar-header">
+                <a class="navbar-brand">Submissions</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div style="margin-top: 60px;" class="container-fluid">
+    <ul class="list-group">
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-xs-6">
+                    AssignmentName
+                    <a href="#">
+                        <span class="glyphicon glyphicon-triangle-top"></span>
+                    </a>
+                </div>
+                <div class="col-xs-3 hidden-xs">
+                    Last Modified
+                </div>
+                <div class="col-xs-2 hidden-xs">
+                    Student
+                </div>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-xs-6">
+                    Assignment1
+
+                </div>
+                <div class="col-xs-3 hidden-xs">
+                    Last Modified
+                </div>
+                <div class="col-xs-2 hidden-xs">
+                    Student1
+                </div>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-xs-6">
+                    Assignment2
+
+                </div>
+                <div class="col-xs-3 hidden-xs">
+                    Last Modified
+                </div>
+                <div class="col-xs-2 hidden-xs">
+                    Student2
+                </div>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-xs-6">
+                    Assignment3
+
+                </div>
+                <div class="col-xs-3 hidden-xs">
+                    Last Modified
+                </div>
+                <div class="col-xs-2 hidden-xs">
+                    Student3
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-bottom tr-assignment-navbar">
+        <div class="container-fluid">
+            <div class="navbar-footer navbar-text pull-right">
+                <a href="#/user/{{model.userId}}">
+                    <span class="glyphicon glyphicon-user"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+</body>
+</html>

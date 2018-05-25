@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="60">
+	<Properties>
+		<Property name="log-path">logs</Property>
+	</Properties>
+	<Appenders>
+		<Console name="Console-Appender" target="SYSTEM_OUT">
+			<PatternLayout>
+				<pattern>
+					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+				>
+			</PatternLayout>
+		</Console>
+		<File name="info-log" fileName="${log-path}/info.log">
+			<PatternLayout>
+				<pattern>
+					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+		</File>
+		<File name="error-log" fileName="${log-path}/error.log">
+			<PatternLayout>
+				<pattern>
+					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+		</File>
+		<!-- <SMTP name="SMTPAppender" smtpProtocol="smtp" smtpPort="25"
+			subject="My Server Error Log" to="aditya218@gmail.com" from="plagiarismdetector214@gmail.com"
+			smtpHost="smtp.gmail.com" smtpUsername="plagiarismdetector214"
+			smtpPassword="Qwerty123#" smtpDebug="true"
+			bufferSize="2">
+
+			<PatternLayout>
+				<pattern>%d{dd/MMM/yyyy HH:mm:ss,SSS}{GMT+2} [%-5p] [%t] - %c{1}:
+					%m%n</pattern>
+			</PatternLayout>
+		</SMTP> -->
+
+	</Appenders>
+	<Loggers>
+		<Logger name="com.webapp" level="info" additivity="false">
+			<AppenderRef ref="info-log" />
+			<AppenderRef ref="Console-Appender" />
+			<AppenderRef ref="SMTPAppender" />
+
+		</Logger>
+		<Logger name="app" level="error" additivity="false">
+			<AppenderRef ref="error-log" />
+			<AppenderRef ref="Console-Appender" />
+
+		</Logger>
+
+
+		<Root>
+			<AppenderRef ref="Console-Appender" />
+			<AppenderRef ref="info-log" level="info" />
+			<AppenderRef ref="error-log" level="error" />
+			<!-- <AppenderRef ref="SMTPAppender" level="error" /> -->
+
+		</Root>
+	</Loggers>
+</Configuration>
